@@ -1,11 +1,10 @@
-const Laptops = [
- "Pavalion",
-  "Acer Predator",
-    "Acer Nitro",
-    "Dell Inspiron",
-    "Dell Vostro",
-];
-const Laptops_filter = Laptops.filter((laptop) => laptop == "Acer Predator" );
+// program to display numbers from 1 to 5
+// initialize the variable
+let i = 1, n = 5;
 
-console.log(Laptops_filter);
+// while loop from i = 1 to 5
+while (i <= n) {
+    console.log(i);
+    i++;
+}
 
