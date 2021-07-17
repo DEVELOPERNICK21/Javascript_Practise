@@ -5,13 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+            <script>
+                setTimeout(() => {
+                follower.innerText ="INSTAGRAM FOLLOWER ! ";
+                }, 5000);
+            </script>
+    <style>
+        .first{
+            background-color: aquamarine;
+            width: 30rem;
+            height: 30rem;
+        }   
+        .second{
+            background-color: rgb(179, 255, 0);
+            width: 30rem;
+            height: 30rem;
+        }
+        .third{
+            background-color: rgb(255, 127, 238);
+            width: 30rem;
+            height: 30rem;
+        }
+        .fourth{
+            background-color: rgb(255, 195, 127);
+            width: 30rem;
+            height: 30rem;
+        }
+        .center{
+            background-color: rgb(0, 0, 0);
+            width: 30rem;
+            height: 30rem;
+            border-radius: 50%;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
 </head>
 <body>
     <div>
         <h1 class="counter">1000</h1>
         <h1 class="follower">Follower</h1>  
-        <script src="./counter.js" ></script>
     </div>
-
+    <div class="main">
+        <div class="first">here</div>
+        
+        <div class="second">it</div>
+        
+        <div class="third">is</div>
+        
+        <div class="fourth">it</div>
+    </div>
+    <div class="center"></div>
+    <script src="./counter.js" ></script>
 </body>
 </html>
