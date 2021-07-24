@@ -1,23 +1,45 @@
 var Nick = {
-    firstName : "Nikhil",
-    LastName : "Limitless",
-    role : "admin",
-    getInfo :  function (){
-        console.log(`The First name is ${this.firstName} and the last name is ${this.LastName} with role of ${this.role}`);
-    }
-}
+  firstName: "Nikhil",
+  LastName: "Developer",
+  role: "admin",
+  getInfo: function () {
+    console.log(`The First name is ${this.firstName} and the last name is ${this.LastName} with role of ${this.role}`);
+  },
+};
 
-var Devanshi = {
-    firstName : "Devasnhi",
-    LastName : "Dev",
-    role : "admin",
-   
-}
+var Sam = {
+  firstName: "Sam",
+  LastName: "Dev",
+  role: "sub - admin",
+};
 
-// console.log(Nick);
 Nick.getInfo();
-console.log(Devanshi);
-Nick.getInfo.bind(Devanshi)();
-// var show = Nick.getInfo.bind(Devanshi);
-// show();
-Nick.getInfo.call(Devanshi);
+var show = Nick.getInfo.bind(Sam);
+show();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Nick.getInfo.call(Sam);

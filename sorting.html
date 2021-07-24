@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+            <script>
+                setTimeout(() => {
+                follower.innerText ="INSTAGRAM FOLLOWER ! ";
+                }, 5000);
+            </script>
+    <style>
+        body{
+            background-color: black;
+            width: 100%;
+            height: 100%;
+        }
+        .center{
+            background-color: blueviolet;
+            padding: 5rem;
+            margin: 5rem;
+            display: flex;
+            border-radius: 10px;
+            flex-direction: column;
+            margin-top: 15rem;
+            text-align: center;
+        }
+        .second_center{
+            background-color: darkorange;
+            height: 15rem;
+            border-radius: 10px;
+        }
+        .ul_html{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(248, 248, 248);
+            /* width: 80%; */
+            border-radius: 10px;
+        }
+        .Span_Price{
+            color: rgb(7, 107, 54);
+            margin: 10rem;
+            font-weight: 400;
+            background-color: rgb(119, 189, 255);
+        }
+        .listOfCorse{
+            color: rgb(85, 73, 245);
+            font-weight: 400;
+            flex-direction: column;
+            justify-content: flex-start;
+            border: 1px;
+            border-color: brown;
+            background-color: rgb(119, 255, 171);
+   }
+        .but button{
+            width: 5rem;
+            height: 2rem;
+            background-color: rgb(240, 155, 243);
+            border: none;
+            margin: 2rem;
+            box-shadow: 0.5 ;
+        }
+        .but button:hover{
+            background-color: rgb(240, 50, 246);
+        }
+    </style>
+</head>
+<body>
+        <div class="center">
+            <h3>Developer Nick</h3>
+            <div class="second_center">
+                <ul class="ul_html">
+                    <li class="listOfCorse">
+                        Javascript Course <span class="Span_Price">2.5 $</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="but">
+                <button class="sortButon">Sort</button>
+            </div>
+        </div>
+    <script src="./sort.js" ></script>
+</body>
+</html>
